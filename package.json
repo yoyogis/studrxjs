@@ -1,0 +1,29 @@
+{
+  "name": "studrxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyogis/studrxjs.git"
+  },
+  "author": "yuanyu002@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoyogis/studrxjs/issues"
+  },
+  "homepage": "https://github.com/yoyogis/studrxjs#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0"
+  }
+}
