@@ -20,10 +20,12 @@
   },
   "homepage": "https://github.com/yoyogis/studrxjs#readme",
   "dependencies": {
-    
+    "rxjs": "^6.1.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "rxjs-tslint-rules": "^4.2.0",
+    "typescript": "^2.8.3"
   }
 }

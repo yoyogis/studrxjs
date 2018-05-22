@@ -1,9 +1,11 @@
 {
     "compilerOptions":{
-        "target": "es5",
-        "module": "amd",
+        "baseUrl": ".",
+        "target": "es2015",
+        "module": "amd", //'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'esnext'.
         "sourceMap": true,
-        "outFile": "main.js"
+        "moduleResolution": "node",
+        "outFile": "dist/main.js"
     },
 
     "include": [
